@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap);
+
+body{
+background-color: #f3f4ed;
+}
+
+.title{
+    background-color: #536162 ;
+    font-family: 'New Tegomin', serif;
+    color: #f3f4ed; 
+    font-size: 50px;
+}
+
+.btn{
+    background-color: #c06014;
+    border-radius: 5px;
+    border-color: #f3f4ed;
+    color: #f3f4ed!important;
+}
+
+.btn:hover{
+    background-color: #ac5915;
+    border-radius: 5px;
+    border-color: #f3f4ed;
+    color: #f3f4ed!important;
+}
+
+.text-game{
+    color: #c06014;
+}
+
+.title-game{
+    color:#424642 ;
+}
