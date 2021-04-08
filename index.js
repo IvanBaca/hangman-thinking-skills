@@ -33,10 +33,10 @@ function cycle(){
         alert("Debe entrar solo una letra");
     }
     if(guessed===word){
-        //Load victory screen
+        //document.location.href=document.location.href.splitOnLast('/')[0]+"/victory.html";
     }
     if(guesses>5){
-        //Load fail screen
+        //document.location.href=document.location.href.splitOnLast('/')[0]+"/defeat.html";
     }
 }
 
