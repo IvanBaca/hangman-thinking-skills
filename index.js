@@ -16,9 +16,12 @@ class concept {
     }
 }
 
-var words = [new concept("hangman", "El juego que se está jugando en inglés"),
-    new concept("test", "Test"),
-    new concept("test2", "Test2")];
+var words = [new concept("observacion", "La capacidad de obtener información del entorno a través de la aplicación de los sentidos"),
+    new concept("descripcion", "La capacidad de evocar un referente concreto en un tercero mediante el uso de un lenguaje"),
+    new concept("comparacion", "La capacidad de poner en relación dos referentes concretos o abstractos y obtener información de ello"),
+    new concept("relacion", "También llamada asociación consiste en el empleo de la memoria y la imaginación para hallar relaciones entre dos o más referentes"),
+    new concept("clasificacion", "La posibilidad de establecer tipos y diferenciaciones entre un conjunto de referentes, para así permitir la aparición de información referente a ellos mismos")
+    ];
 
 function gameStart(){
     randVal = randomNumber(0, words.length);
